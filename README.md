@@ -46,10 +46,11 @@ bench --site s15.localhost install-app erpnext
 ```
 
 ```
-bench get-app --branch version-14 hrms
+bench get-app --branch version-15 hrms
 bench --site s15.localhost install-app hrms
 ```
 
+need to check this
 ```
 bench get-app --branch version-14 payments
 bench --site s15.localhost install-app payments
