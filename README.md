@@ -50,7 +50,6 @@ bench get-app --branch version-15 hrms
 bench --site s15.localhost install-app hrms
 ```
 
-need to check this
 ```
 bench get-app --branch version-15 payments
 bench --site s15.localhost install-app payments
