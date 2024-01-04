@@ -52,13 +52,8 @@ bench --site s15.localhost install-app hrms
 
 need to check this
 ```
-bench get-app --branch version-14 payments
+bench get-app --branch version-15 payments
 bench --site s15.localhost install-app payments
-```
-
-```
-bench get-app --branch version-14 https://github.com/resilient-tech/india-compliance.git
-bench --site s15.localhost install-app india_compliance
 ```
 
 ```
