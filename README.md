@@ -33,31 +33,32 @@ bench set-config -g redis_socketio redis://redis-socketio:6379
 
 ```
 bench new-site s15.localhost --mariadb-root-password 123 --admin-password admin --no-mariadb-socket
+bench use s15.localhost
 ```
 
 ```
-bench --site s15.localhost set-config developer_mode 1
-bench --site s15.localhost clear-cache
+bench set-config developer_mode 1
+bench clear-cache
 ````
 
 ```
 bench get-app --branch version-15 --resolve-deps erpnext
-bench --site s15.localhost install-app erpnext
+bench install-app erpnext
 ```
 
 ```
 bench get-app --branch version-15 hrms
-bench --site s15.localhost install-app hrms
+bench install-app hrms
 ```
 
 ```
 bench get-app --branch version-15 payments
-bench --site s15.localhost install-app payments
+bench install-app payments
 ```
 
 ```
 bench get-app --branch staging-14 https://github.com/thiruk-softsuave/ss_custom_erpnext.git
-bench --site s15.localhost install-app ss_custom_erpnext
+bench install-app ss_custom_erpnext
 ```
 
 ```
